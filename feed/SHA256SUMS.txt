@@ -1,0 +1,1 @@
+ccbed6e7128d85313eca1024bc45f317a4871cf7ced3293e74ea40dce986f703  PruningDemo.Bridge.1.0.0.nupkg

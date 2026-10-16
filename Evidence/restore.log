@@ -1,0 +1,7 @@
+  Determining projects to restore...
+  Restored /workspace/scratch/d700d349c14f/vs-demo/artifacts/test-20261016-061637-18bda662/work/src/MultiTarget/MultiTarget.csproj (in 6.74 sec).
+/workspace/scratch/d700d349c14f/vs-demo/artifacts/test-20261016-061637-18bda662/work/src/Consumer.Direct/Consumer.Direct.csproj : warning NU1510: PackageReference System.Text.Json will not be pruned. This package is automatically available and does not need to be referenced explicitly. Remove the PackageReference item. [/workspace/scratch/d700d349c14f/vs-demo/artifacts/test-20261016-061637-18bda662/work/NuGetPruning.slnx]
+  Restored /workspace/scratch/d700d349c14f/vs-demo/artifacts/test-20261016-061637-18bda662/work/src/Consumer.Direct/Consumer.Direct.csproj (in 57 ms).
+  Restored /workspace/scratch/d700d349c14f/vs-demo/artifacts/test-20261016-061637-18bda662/work/src/Consumer.Off/Consumer.Off.csproj (in 51 ms).
+  Restored /workspace/scratch/d700d349c14f/vs-demo/artifacts/test-20261016-061637-18bda662/work/src/Bridge/Bridge.csproj (in 1 ms).
+  Restored /workspace/scratch/d700d349c14f/vs-demo/artifacts/test-20261016-061637-18bda662/work/src/Consumer.On/Consumer.On.csproj (in 6 ms).

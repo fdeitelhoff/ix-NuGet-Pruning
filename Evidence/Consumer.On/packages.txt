@@ -1,0 +1,5 @@
+Project 'Consumer.On' has the following package references
+   [net10.0]: 
+   Top-level Package         Requested   Resolved
+   > PruningDemo.Bridge      [1.0.0]     1.0.0   
+

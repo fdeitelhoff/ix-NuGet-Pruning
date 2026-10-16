@@ -1,0 +1,15 @@
+/workspace/scratch/d700d349c14f/vs-demo/artifacts/test-20261016-061637-18bda662/work/src/Consumer.Direct/Consumer.Direct.csproj : warning NU1510: PackageReference System.Text.Json will not be pruned. This package is automatically available and does not need to be referenced explicitly. Remove the PackageReference item.
+  Consumer.Direct -> /workspace/scratch/d700d349c14f/vs-demo/artifacts/test-20261016-061637-18bda662/work/src/Consumer.Direct/bin/Debug/net10.0/Consumer.Direct.dll
+  Consumer.Off -> /workspace/scratch/d700d349c14f/vs-demo/artifacts/test-20261016-061637-18bda662/work/src/Consumer.Off/bin/Debug/net10.0/Consumer.Off.dll
+  Consumer.On -> /workspace/scratch/d700d349c14f/vs-demo/artifacts/test-20261016-061637-18bda662/work/src/Consumer.On/bin/Debug/net10.0/Consumer.On.dll
+  MultiTarget -> /workspace/scratch/d700d349c14f/vs-demo/artifacts/test-20261016-061637-18bda662/work/src/MultiTarget/bin/Debug/net10.0/MultiTarget.dll
+  MultiTarget -> /workspace/scratch/d700d349c14f/vs-demo/artifacts/test-20261016-061637-18bda662/work/src/MultiTarget/bin/Debug/netstandard2.0/MultiTarget.dll
+  Bridge -> /workspace/scratch/d700d349c14f/vs-demo/artifacts/test-20261016-061637-18bda662/work/src/Bridge/bin/Debug/net10.0/PruningDemo.Bridge.dll
+
+Build succeeded.
+
+/workspace/scratch/d700d349c14f/vs-demo/artifacts/test-20261016-061637-18bda662/work/src/Consumer.Direct/Consumer.Direct.csproj : warning NU1510: PackageReference System.Text.Json will not be pruned. This package is automatically available and does not need to be referenced explicitly. Remove the PackageReference item.
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:08.92

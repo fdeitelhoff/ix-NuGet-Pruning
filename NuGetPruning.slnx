@@ -1,0 +1,22 @@
+<Solution>
+  <Folder Name="/01 Szenarien/">
+    <Project Path="src/Consumer.Off/Consumer.Off.csproj" />
+    <Project Path="src/Consumer.On/Consumer.On.csproj" />
+    <Project Path="src/Consumer.Direct/Consumer.Direct.csproj" />
+  </Folder>
+  <Folder Name="/02 Zusatztest/">
+    <Project Path="src/MultiTarget/MultiTarget.csproj" />
+  </Folder>
+  <Folder Name="/03 Paketquelle/">
+    <Project Path="src/Bridge/Bridge.csproj" />
+  </Folder>
+  <Folder Name="/Anleitung/">
+    <File Path="README.md" />
+    <File Path="Testanleitung.md" />
+    <File Path="Prepare-Demo.ps1" />
+    <File Path="Test-Solution.ps1" />
+    <File Path="NuGet.Config" />
+    <File Path="global.json" />
+    <File Path="TESTSTATUS.md" />
+  </Folder>
+</Solution>

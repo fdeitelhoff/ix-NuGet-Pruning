@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>PruningDemo.Consumer.Direct</id>
+    <version>1.0.0</version>
+    <authors>Consumer.Direct</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net10.0">
+        <dependency id="PruningDemo.Bridge" version="[1.0.0]" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

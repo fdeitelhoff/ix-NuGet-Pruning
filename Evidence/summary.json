@@ -1,0 +1,54 @@
+{
+  "completedAtUtc": "2026-10-15T21:17:32.4751995Z",
+  "sdk": "10.0.402",
+  "powershell": "7.5.4",
+  "platform": "Ubuntu 24.04.3 LTS",
+  "solution": "NuGetPruning.slnx",
+  "debugBuild": "passed",
+  "releaseBuild": "passed",
+  "identicalOutput": true,
+  "results": [
+    {
+      "project": "Consumer.Off",
+      "packages": [
+        "PruningDemo.Bridge/1.0.0",
+        "System.Text.Json/8.0.5"
+      ],
+      "packageCount": 2,
+      "jsonDownloaded": true,
+      "run": "passed",
+      "lockedRestore": "passed",
+      "nu1510": false
+    },
+    {
+      "project": "Consumer.On",
+      "packages": [
+        "PruningDemo.Bridge/1.0.0"
+      ],
+      "packageCount": 1,
+      "jsonDownloaded": false,
+      "run": "passed",
+      "lockedRestore": "passed",
+      "nu1510": false
+    },
+    {
+      "project": "Consumer.Direct",
+      "packages": [
+        "PruningDemo.Bridge/1.0.0",
+        "System.Text.Json/8.0.5"
+      ],
+      "packageCount": 2,
+      "jsonDownloaded": true,
+      "run": "passed",
+      "lockedRestore": "passed",
+      "nu1510": true
+    },
+    {
+      "project": "MultiTarget",
+      "net10JsonAssets": "none",
+      "netstandardJsonAssets": "retained",
+      "nu1510": false,
+      "build": "passed"
+    }
+  ]
+}

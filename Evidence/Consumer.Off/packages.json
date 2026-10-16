@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "parameters": "--include-transitive",
+  "projects": [
+    {
+      "path": "/workspace/scratch/d700d349c14f/vs-demo/artifacts/test-20261016-061637-18bda662/work/src/Consumer.Off/Consumer.Off.csproj",
+      "frameworks": [
+        {
+          "framework": "net10.0",
+          "topLevelPackages": [
+            {
+              "id": "PruningDemo.Bridge",
+              "requestedVersion": "[1.0.0]",
+              "resolvedVersion": "1.0.0"
+            }
+          ],
+          "transitivePackages": [
+            {
+              "id": "System.Text.Json",
+              "resolvedVersion": "8.0.5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

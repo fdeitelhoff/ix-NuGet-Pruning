@@ -1,0 +1,7 @@
+Project(s)
+----------
+src/Bridge/Bridge.csproj
+src/Consumer.Direct/Consumer.Direct.csproj
+src/Consumer.Off/Consumer.Off.csproj
+src/Consumer.On/Consumer.On.csproj
+src/MultiTarget/MultiTarget.csproj

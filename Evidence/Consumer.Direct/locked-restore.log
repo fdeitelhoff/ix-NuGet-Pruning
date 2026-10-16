@@ -1,0 +1,3 @@
+  Determining projects to restore...
+/workspace/scratch/d700d349c14f/vs-demo/artifacts/test-20261016-061637-18bda662/work/src/Consumer.Direct/Consumer.Direct.csproj : warning NU1510: PackageReference System.Text.Json will not be pruned. This package is automatically available and does not need to be referenced explicitly. Remove the PackageReference item.
+  Restored /workspace/scratch/d700d349c14f/vs-demo/artifacts/test-20261016-061637-18bda662/work/src/Consumer.Direct/Consumer.Direct.csproj (in 271 ms).

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net10.0": {
+      "PruningDemo.Bridge": {
+        "type": "Direct",
+        "requested": "[1.0.0, 1.0.0]",
+        "resolved": "1.0.0",
+        "contentHash": "7Ws+r8BBvz+CUvS1Tgr0K0iuqOGATxe62pknPjIA3cvhiClaRnD5bCqrfQObv9xmGiFsdnif+V5UZkrQsHlaqg=="
+      }
+    }
+  }
+}

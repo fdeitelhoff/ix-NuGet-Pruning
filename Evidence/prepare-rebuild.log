@@ -1,0 +1,33 @@
+dotnet --version
+10.0.402
+dotnet restore /workspace/scratch/d700d349c14f/vs-demo/src/Bridge/Bridge.csproj --force-evaluate
+  Determining projects to restore...
+  Restored /workspace/scratch/d700d349c14f/vs-demo/src/Bridge/Bridge.csproj (in 92 ms).
+dotnet build /workspace/scratch/d700d349c14f/vs-demo/src/Bridge/Bridge.csproj -c Release --no-restore
+  Bridge -> /workspace/scratch/d700d349c14f/vs-demo/src/Bridge/bin/Release/net10.0/PruningDemo.Bridge.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.46
+dotnet pack /workspace/scratch/d700d349c14f/vs-demo/src/Bridge/Bridge.csproj -c Release --no-build --no-restore -o /workspace/scratch/d700d349c14f/vs-demo/artifacts/prepare-20261016-061608-88c7a3b6/new-feed
+  The package PruningDemo.Bridge.1.0.0 is missing a readme. Go to https://aka.ms/nuget/authoring-best-practices/readme to learn why package readmes are important.
+  Successfully created package '/workspace/scratch/d700d349c14f/vs-demo/artifacts/prepare-20261016-061608-88c7a3b6/new-feed/PruningDemo.Bridge.1.0.0.nupkg'.
+dotnet restore /workspace/scratch/d700d349c14f/vs-demo/src/Bridge/Bridge.csproj --force-evaluate --force --no-http-cache --disable-build-servers -m:1
+  Determining projects to restore...
+  Restored /workspace/scratch/d700d349c14f/vs-demo/src/Bridge/Bridge.csproj (in 102 ms).
+dotnet restore /workspace/scratch/d700d349c14f/vs-demo/src/MultiTarget/MultiTarget.csproj --force-evaluate --force --no-http-cache --disable-build-servers -m:1
+  Determining projects to restore...
+  Restored /workspace/scratch/d700d349c14f/vs-demo/src/MultiTarget/MultiTarget.csproj (in 1.61 sec).
+dotnet restore /workspace/scratch/d700d349c14f/vs-demo/src/Consumer.Off/Consumer.Off.csproj --force-evaluate --force --no-http-cache --disable-build-servers -m:1
+  Determining projects to restore...
+  Restored /workspace/scratch/d700d349c14f/vs-demo/src/Consumer.Off/Consumer.Off.csproj (in 266 ms).
+dotnet restore /workspace/scratch/d700d349c14f/vs-demo/src/Consumer.On/Consumer.On.csproj --force-evaluate --force --no-http-cache --disable-build-servers -m:1
+  Determining projects to restore...
+  Restored /workspace/scratch/d700d349c14f/vs-demo/src/Consumer.On/Consumer.On.csproj (in 221 ms).
+dotnet restore /workspace/scratch/d700d349c14f/vs-demo/src/Consumer.Direct/Consumer.Direct.csproj --force-evaluate --force --no-http-cache --disable-build-servers -m:1
+  Determining projects to restore...
+/workspace/scratch/d700d349c14f/vs-demo/src/Consumer.Direct/Consumer.Direct.csproj : warning NU1510: PackageReference System.Text.Json will not be pruned. This package is automatically available and does not need to be referenced explicitly. Remove the PackageReference item.
+  Restored /workspace/scratch/d700d349c14f/vs-demo/src/Consumer.Direct/Consumer.Direct.csproj (in 259 ms).
+Vorbereitung erfolgreich. NuGetPruning.slnx kann in Visual Studio geoeffnet werden. Logs: /workspace/scratch/d700d349c14f/vs-demo/artifacts/prepare-20261016-061608-88c7a3b6
